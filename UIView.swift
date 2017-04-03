@@ -6,15 +6,16 @@
 //  Copyright © 2017 Victor Amelin. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
 public extension UIView {
-    public func addGradient(colors: [CGColor], startPoint: CGPoint, endPoint: CGPoint) {
+    public func gradientSublayer(colorA: UIColor = UIColor.red, colorB: UIColor = UIColor.green) {
         let gradientLayer = CAGradientLayer()
         gradientLayer.frame = self.bounds
-        gradientLayer.colors = colors
-        gradientLayer.startPoint = startPoint
-        gradientLayer.endPoint = endPoint
+        gradientLayer.colors = [colorA, colorB].map{$0.cgColor}
+        gradientLayer.startPoint = CGPoint(x: 0.0, y: 0.0)
+        gradientLayer.endPoint = CGPoint(x: 1.0, y: 0.0)
         self.layer.insertSublayer(gradientLayer, at: 0)
     }
     
