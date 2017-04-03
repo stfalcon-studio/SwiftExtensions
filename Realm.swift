@@ -30,6 +30,8 @@ public extension Object {
 }
 
 public class RealmHelper {
+    private init() {}
+    
     public class func objects<T: Object>(type: T.Type) -> Results<T>? {
         let realm = try? Realm()
         return realm?.objects(type)
