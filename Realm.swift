@@ -16,7 +16,7 @@ public extension Object {
         }
     }
     
-    public func update(updateBlock: EmptyHandler) {
+    public func update(updateBlock: ()->()) {
         let realm = try? Realm()
         try! realm?.write(updateBlock)
     }
