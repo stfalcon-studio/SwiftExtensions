@@ -15,11 +15,6 @@ public extension Object {
         }
     }
     
-    public func update(updateBlock: () -> ()) {
-        let realm = try? Realm()
-        try! realm?.write(updateBlock)
-    }
-    
     public func delete() {
         let realm = try? Realm()
         try! realm?.write({
