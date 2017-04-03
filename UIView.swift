@@ -1,6 +1,5 @@
 //
 //  UIImage.swift
-//  cargo
 //
 //  Created by Victor Amelin on 2/16/17.
 //  Copyright © 2017 Victor Amelin. All rights reserved.

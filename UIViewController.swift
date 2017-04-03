@@ -1,6 +1,5 @@
 //
 //  ViewController.swift
-//  iseeds
 //
 //  Created by Victor Amelin on 1/31/17.
 //  Copyright © 2017 Victor Amelin. All rights reserved.

@@ -1,6 +1,5 @@
 //
 //  Dispatch.swift
-//  ACT_ios
 //
 //  Created by Victor Amelin on 1/23/17.
 //  Copyright © 2017 Victor Amelin. All rights reserved.

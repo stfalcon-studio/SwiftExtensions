@@ -1,6 +1,5 @@
 //
 //  DeviceType.swift
-//  iseeds
 //
 //  Created by Victor Amelin on 2/2/17.
 //  Copyright © 2017 Victor Amelin. All rights reserved.

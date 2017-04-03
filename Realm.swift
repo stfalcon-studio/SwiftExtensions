@@ -1,6 +1,5 @@
 //
 //  Realm.swift
-//  cargo
 //
 //  Created by Victor Amelin on 2/23/17.
 //  Copyright © 2017 Victor Amelin. All rights reserved.
@@ -16,7 +15,7 @@ public extension Object {
         }
     }
     
-    public func update(updateBlock: () -> Void) {
+    public func update(updateBlock: () -> ()) {
         let realm = try? Realm()
         try! realm?.write(updateBlock)
     }

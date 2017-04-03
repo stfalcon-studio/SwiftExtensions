@@ -1,6 +1,4 @@
 //
-//  UILabel+Methods.swift
-//  cargo
 //
 //  Created by Roman Rybachenko on 2/21/17.
 //  Copyright © 2017 Victor Amelin. All rights reserved.
