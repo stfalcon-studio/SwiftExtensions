@@ -22,6 +22,10 @@ public extension UIViewController {
         }
         return base
     }
+    
+    class var storyboardIdentifier: String {
+        return String(describing: self)
+    }
 }
 
 
