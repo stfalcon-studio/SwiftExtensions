@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = 'SwiftExtensions'
-s.version      = '0.1.1'
+s.version      = '0.15'
 s.summary      = 'SwiftExtensions is a collection of helpful extensions.'
 s.description  = 'Collection contains ViewController, UIView, UILabel, ScrollView, MutableData, Dispatch, DeviceType and Realm extensions.'
 s.homepage     = 'https://github.com/stfalcon-studio/SwiftExtensions'
