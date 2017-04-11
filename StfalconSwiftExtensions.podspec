@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
-s.name         = 'SwiftExtensions'
+s.name         = 'StfalconSwiftExtensions'
 s.version      = '0.15'
-s.summary      = 'SwiftExtensions is a collection of helpful extensions.'
-s.description  = 'Collection contains ViewController, UIView, UILabel, ScrollView, MutableData, Dispatch, DeviceType and Realm extensions.'
+s.summary      = 'StfalconSwiftExtensions is a collection of helpful extensions.'
+s.description  = 'Collection contains ViewController, UIView, UILabel, ScrollView, MutableData, Dispatch, String, DeviceType and Realm extensions.'
 s.homepage     = 'https://github.com/stfalcon-studio/SwiftExtensions'
 s.license      = 'MIT'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
