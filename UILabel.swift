@@ -10,7 +10,6 @@ public extension UILabel {
     public func setTextWithLineSpacing(text: String, lineHeight: CGFloat) {
         let paragraphStyle = NSMutableParagraphStyle()
         paragraphStyle.lineSpacing = lineHeight
-//        paragraphStyle.alignment = .center
         let attributedString = NSMutableAttributedString(string: text)
         let range = NSRange(location: 0, length: attributedString.length)
         attributedString.addAttribute(NSParagraphStyleAttributeName,
