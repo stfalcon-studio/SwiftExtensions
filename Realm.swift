@@ -26,13 +26,6 @@ public extension Object {
         let realm = try? Realm()
         try! realm?.write(updateBlock)
     }
-    
-    public func delete() {
-        let realm = try? Realm()
-        try! realm?.write {
-            realm?.delete(self)
-        }
-    }
 }
 
 public class RealmHelper {
