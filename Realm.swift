@@ -21,6 +21,18 @@ public extension Object {
             realm?.delete(self)
         })
     }
+    
+    public func update(updateBlock: () -> ()) {
+        let realm = try? Realm()
+        try! realm?.write(updateBlock)
+    }
+    
+    public func delete() {
+        let realm = try? Realm()
+        try! realm?.write {
+            realm?.delete(self)
+        }
+    }
 }
 
 public class RealmHelper {
